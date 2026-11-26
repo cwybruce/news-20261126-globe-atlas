@@ -12,7 +12,7 @@ A one-image world atlas of Thursday 26 November 2026: a hand-drawn world map on 
 python3 main.py
 ```
 
-This writes `entry.png` (1024x1024, deterministic) to `/output/entry.png` and to the repository root. No network is used.
+This copies the pre-rendered `entry.png` (1024x1024, drawn by `draw_globe.py` at build time) to `/output/entry.png`. No network is used.
 
 ---
 
